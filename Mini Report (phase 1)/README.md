@@ -60,10 +60,11 @@ Disini obeservasi yang kami lakukan adalah dengan bertanya kepada ketua KPU Ilmu
 
 Jika kita berkaca pada tahun lalu, itu dimulai dari calon pemilih yang nantinya kami (panitia KPU) kasih surat undangan untuk datang ke TPS dan menyoblos. Lalu ketika pemilih (mahasiswa ilkom) datang ke TPS, pemilih akan disuruh menunjukan kartu tanda mahasiswa (KTM) atau bisa menggunakan KRS (kartu rencana studi) mereka jika tidak ada KTM. Hal itu bertujuan untuk validasi kalau mereka adalah mahasiswa ilmu komputer. Setelah validasi, pemilih akan disuruh tanda tangan di daftar hadir pemilih yang telah disediakan oleh panitia, lalu setelahnya panitia akan memberikan 3 surat suara yang terdiri dari surat suara Prodi, Fakultas dan Universitas, lalu mengarahkan pemilih untuk ke bilik suara. Jika pemilih sudah selesai nyoblos, pemilih akan diarahkan ke kotak suara lalu pemilih akan disuruh menyelupkan salah satu jarinya ke tinta yang telah disediakan sebagai tanda bahwa pemilih telah menggunakan hak suaranya. Saya rasa hanya itu saja, sama seperti pemilu pada umumnya. 
 
-# Kesimpulan dari hasil Interview
+# Kesimpulan dari hasil Interview dan Observasi
 Dari hasil interview tersebut, sistem e-voting ini benar – benar diperlukan untuk saat ini, mengingat situasi pendemi dimana ini menjadi masalah karena tidak bisa mengadakan pemilu langsung. Selain masalah tersebut, ada beberapa masalah atau kendala yang sering terjadi pada pemilu langsung, yaitu pengeluaran pemilu langsung yang terlalu besar, menghamburkan banyak kertas, memakan waktu dan tempat.  Sehingga kami menawarkan solusi dari masalah – masalah tersebut dengan membuat sistem E-Voting KPU Ilmu Komputer berbasis aplikasi WEB.
 
 Lalu dari hasil interview tersebut, kami juga mendaptkan bayangan mengenai fitur – fitur apa saja yang nantinya akan diterapkan pada sistem e-voting ini. Menurut hasil interview dan hasil observasi, fitur – fitur yang nantinya diterapkan di sistem e-voting adalah:
-    1.	Fitur Login : sebagai fitur validasi dan daftar hadir pemilih
-    2.	Fitur Bilik suara : sebagai fitur surat suara sekaligus bilik suara, dimana dihalaman bilik suara ini akan terdapat daftar kandidat BEM Prodi, BEM Fakultas, BEM Universitas yang nantinya akan dipilih oleh pemilih
-    3.	Fitur Admin : sebagai fitur Kelola atau manage aplikasi yang dilakukan oleh panitia KPU. Fitur admin ini nantinya terdiri dari fitur Dashboard, fitur kotak suara, fitur Manage (kelola) user dan kandidat.
+
+    1. Fitur Login       : sebagai fitur validasi dan daftar hadir pemilih
+    2. Fitur Bilik suara : sebagai fitur surat suara sekaligus bilik suara, dimana dihalaman bilik suara ini akan terdapat daftar kandidat BEM Prodi, BEM Fakultas, BEM                                      Universitas yang nantinya akan dipilih oleh pemilih
+    3. Fitur Admin       : sebagai fitur Kelola atau manage aplikasi yang dilakukan oleh panitia KPU. Fitur admin ini nantinya terdiri dari fitur Dashboard, fitur kotak suara,                              fitur Manage (kelola) user dan kandidat.
