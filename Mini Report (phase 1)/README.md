@@ -66,5 +66,5 @@ Dari hasil interview tersebut, sistem e-voting ini benar – benar diperlukan un
 Lalu dari hasil interview tersebut, kami juga mendaptkan bayangan mengenai fitur – fitur apa saja yang nantinya akan diterapkan pada sistem e-voting ini. Menurut hasil interview dan hasil observasi, fitur – fitur yang nantinya diterapkan di sistem e-voting adalah:
 
     1. Fitur Login       : sebagai fitur validasi dan daftar hadir pemilih
-    2. Fitur Bilik suara : sebagai fitur surat suara sekaligus bilik suara, dimana dihalaman bilik suara ini akan terdapat daftar kandidat BEM Prodi, BEM Fakultas, BEM                                      Universitas yang nantinya akan dipilih oleh pemilih
-    3. Fitur Admin       : sebagai fitur Kelola atau manage aplikasi yang dilakukan oleh panitia KPU. Fitur admin ini nantinya terdiri dari fitur Dashboard, fitur kotak suara,                              fitur Manage (kelola) user dan kandidat.
+    2. Fitur Bilik suara : sebagai fitur surat suara sekaligus bilik suara, dimana dihalaman bilik suara ini akan terdapat daftar kandidat BEM Prodi, BEM Fakultas, BEM Universitas yang nantinya akan dipilih oleh pemilih
+    3. Fitur Admin       : sebagai fitur Kelola atau manage aplikasi yang dilakukan oleh panitia KPU. Fitur admin ini nantinya terdiri dari fitur Dashboard, fitur kotak suara fitur Manage (kelola) user dan kandidat.
