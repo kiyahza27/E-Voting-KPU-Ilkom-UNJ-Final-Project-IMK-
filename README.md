@@ -25,9 +25,9 @@ Menurut hasil interview dan hasil observasi, fitur – fitur yang nantinya diter
 
     1.	Fitur Login       : sebagai fitur validasi dan daftar hadir pemilih dengan memasukkan NIM dan password yg telah diberikan oleh panitia KPU
     2.	Fitur Bilik suara : sebagai fitur surat suara sekaligus bilik suara, dimana dihalaman bilik suara ini akan terdapat 
-                            daftar kandidat BEM Prodi, BEM Fakultas, BEM Universitas yang nantinya akan dipilih oleh pemilih
+                                daftar kandidat BEM Prodi, BEM Fakultas, BEM Universitas yang nantinya akan dipilih oleh pemilih
     3.	Fitur Admin       : sebagai fitur Kelola atau manage aplikasi yang dilakukan oleh panitia KPU. 
-                            Fitur admin ini nantinya terdiri dari fitur Dashboard, fitur kotak suara, fitur Manage (kelola) user dan kandidat.
+                                Fitur admin ini nantinya terdiri dari fitur Dashboard, fitur kotak suara, fitur Manage (kelola) user dan kandidat.
 
 Dalam sistem ini, terdapat 2 role yakni admin dan pemilih, dimana admin itu adalah panitia dari KPU ilmu komputer itu sendiri, dan pemilih tidak lain adalah seluruh mahasiswa aktif di program studi ilmu komputer UNJ yang memiliki hak suara. Berikut ini adalah fitur berdasarkan Role atau peran penting dalam sistem informasi ini:
 
