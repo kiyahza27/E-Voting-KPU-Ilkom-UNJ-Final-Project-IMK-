@@ -8,11 +8,10 @@ E-Voting berasal dari kata electronic voting yang mengacu pada penggunaan teknol
 satu alternatif yang kami buat untuk masalah yang sedang dihadapi oleh KPU Ilmu Komputer UNJ yaitu tidak bisa mengadakan Pemilu secara langsung dikarenakan situasi pendemi sekarang ini. Selain itu E-Voting hadir untuk memecahkan masalah lain saat pemilu langsung yaitu E-Voting dapat menghemat pengeluaran panitia KPU, E-Voting dapat menghemat penggunaan kertas yang berlebihan, dan masih banyak lagi. Berikut ini adalah kelebihan E-Voting dari Pemilu langsung:
 
     1.	Tidak perlu mencetak surat suara sehingga tidak terjadi penggunaan kertas yang berlebihan
-    2.	Pemberian suara menjadi lebih mudah kareana hanya menentuh tanda gambar atau foto paslon yang ada di sistem
+    2.	Pemberian suara menjadi lebih mudah kareana hanya dengan menyentuh tanda gambar atau foto paslon yang ada di sistem
     3.	Tidak memerlukan TPS (Tempat Pemungutan Suara)
     4.	Penghitungan suara akan lebih cepat dan akurat 
     5.	Hasil pemilihan akan terlihat secara transparan dengan melihat struk suara pilihan pemilih
-Dalam sistem ini, terdapat 2 role yakni admin dan pemilih, dimana admin itu adalah panitia dari KPU ilmu komputer itu sendiri, dan pemilih tidak lain adalah seluruh mahasiswa aktif di program studi ilmu komputer UNJ yang memiliki hak suara.
 
 ## Tujuan
 E-Voting KPU Ilmu Komputer UNJ hadir dengan tujuan membantu panitia KPU Ilmu Komputer agar kegiatan pemilu tetap berjalan lancar di masa pendemi ini. E-Voting ini juga diharapkan mampu menggantikan kegiatan pemilu langsung karena E-Voting ini lebih efektif, efisien, dan memiliki banyak kelebihan dibandingkan dengan pemilu langsung.
