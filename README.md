@@ -57,4 +57,9 @@ Fitur - fitur tersebut dapat dilihat dari use case dibawah ini.
 ### Interaction Control User
 ![Image of ICU](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Mockup%20UI%20%26%20Design%20Interaction%20Control/interaction%20control%20user.png)
 
+## Design Mockup UI
+### Mockup UI Admin
+* [link to see mockup UI Admin](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/tree/main/Mockup%20UI%20%26%20Design%20Interaction%20Control/UI%20Admin)
 
+### Mockup UI User (Pemilih)
+* [link to see mockup UI User (pemilih)](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/tree/main/Mockup%20UI%20%26%20Design%20Interaction%20Control/UI%20User)
