@@ -1,4 +1,4 @@
-# MINI REPORT (PHASE 1)
+# MINI REPORT (Hasil Interview & Observasi)
 Pada tugas IMK kali ini, kelompok kami telah menentukan ide untuk final project, yaitu Pemilihan Calon Ketua BEM Prodi Ilmu Komputer dengan System E-Voting Berbasis Aplikasi WEB. Ide ini kami dapatkan karena saat ini prodi ilmu komputer sedang mempersiapkan kegiatan pemilihan calon ketua BEM. Pemilihan calon ketua BEM ini rutin diadakan setiap tahunnya pada akhir tahun. Namun karena saat ini sedang ada pendemi covid 19, pelaksanaan kegiatan tersebut semuanya serba online tetapi belum menggunakan sistem aplikasi e-voting. Oleh karena itu kami mendapatkan ide untuk membantu pelaksanaan kegiatan tersebut dengan membuatkan sistem e-voting berbasis aplikasi web.
 
 Aplikasi E-Voting berbasis WEB ini merupakan jenis atau tipe fixed App, dikarenakan Aplikasi ini hanya digunakan oleh satu lingkup saja, yaitu lingkup mahasiswa Ilmu Komputer UNJ. Karena ini merupakan fixed app, maka metode analisis yang kami gunakan adalah interview dan observasi.
