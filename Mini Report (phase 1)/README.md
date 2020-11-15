@@ -47,11 +47,11 @@ Untuk mendukung ide ini kami telah melakukan interview dengan mewawancarai 2 ora
 
 ### WAWANCARA DENGAN SALAH SATU MAHASISWA ILMU KOMPUTER YAITU CINDI TRI FITIKASARI
     Penanya	: Apakah kamu tau ttg evoting dan apa pendapatmu ttg evoting?
-    Cindy	: elektronik-voting. Untuk sistemnya seperti apa aslinya saya kurang tahu, tapi, mungkin e-vote itu voting Yang dilakukan degan melibatkan teknologi.  Vote online
-              mungkin (?)
+    Cindy	: elektronik-voting. Untuk sistemnya seperti apa aslinya saya kurang tahu, tapi, mungkin e-vote itu voting Yang dilakukan degan melibatkan teknologi.  
+              Vote online mungkin (?)
     Penanya : Apakah kamu pernah menggunakan sistem e-voting?
-    Cindy	: untuk voting Yang bersifat resmi sepertinya belom pernah, tapi kayaknya secara gasadar ketika melakukan pembagian tugas atau menentukan ketua kelompok yang pernah
-              dilakukan secara online 
+    Cindy	: untuk voting Yang bersifat resmi sepertinya belom pernah, tapi kayaknya secara gasadar ketika melakukan pembagian tugas atau menentukan 
+              ketua kelompok yang pernah dilakukan secara online 
     Penanya	: Jika pernah, bagaimana perbedaan antara voting lgs dgn evoting ? Apakah perlu diterapkan di kpu ilkom?
     Cindy 	: ketika melakukan vote online mungkin harus benar2 dilaksanakan serentak, karena takut sifat kerahasiaanya hilang. 
               Jika memang harus, mungkin bisa diterapkan Demi meneruskan pengkaderan di ormawa Dan opmawa
