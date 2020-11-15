@@ -14,7 +14,6 @@ satu alternatif yang kami buat untuk masalah yang sedang dihadapi oleh KPU Ilmu 
     2.	Pemberian suara menjadi lebih mudah kareana hanya dengan menyentuh tanda gambar atau foto paslon yang ada di sistem
     3.	Tidak memerlukan TPS (Tempat Pemungutan Suara)
     4.	Penghitungan suara akan lebih cepat dan akurat 
-    5.	Hasil pemilihan akan terlihat secara transparan dengan melihat struk suara pilihan pemilih
 
 ## Tujuan
 E-Voting KPU Ilmu Komputer UNJ hadir dengan tujuan membantu panitia KPU Ilmu Komputer agar kegiatan pemilu tetap berjalan lancar di masa pendemi ini. E-Voting ini juga diharapkan mampu menggantikan kegiatan pemilu langsung karena E-Voting ini lebih efektif, efisien, dan memiliki banyak kelebihan dibandingkan dengan pemilu langsung.
