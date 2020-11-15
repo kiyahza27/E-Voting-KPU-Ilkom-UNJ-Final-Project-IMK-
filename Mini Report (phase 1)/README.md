@@ -71,3 +71,4 @@ Lalu dari hasil interview tersebut, kami juga mendaptkan bayangan mengenai fitur
     1. Fitur Login       : sebagai fitur validasi dan daftar hadir pemilih
     2. Fitur Bilik suara : sebagai fitur surat suara sekaligus bilik suara, dimana dihalaman bilik suara ini akan terdapat daftar kandidat BEM Prodi, BEM Fakultas, BEM Universitas yang nantinya akan dipilih oleh pemilih
     3. Fitur Admin       : sebagai fitur Kelola atau manage aplikasi yang dilakukan oleh panitia KPU. Fitur admin ini nantinya terdiri dari fitur Dashboard, fitur kotak suara fitur Manage (kelola) user dan kandidat.
+    
