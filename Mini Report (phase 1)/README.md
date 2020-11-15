@@ -5,7 +5,7 @@ Aplikasi E-Voting berbasis WEB ini merupakan jenis atau tipe fixed App, dikarena
 
 Untuk mendukung ide ini kami telah melakukan interview dengan mewawancarai 2 orang yang nantinya berperan penting dalam menggunakan aplikasi e-voting ini yaitu ketua KPU (Komisi Pemilihan Umum) Ilmu Komputer dan mahasiswa ilmu komputer yang aktif sebagai pemilih tetap. Berikut ini adalah hasil wawancara yang telah kami lakukan.
 
-# WAWANCARA DENGAN KETUA KPU ILMU KOMPUTER 2020 YAITU HARRY SUSILO
+### WAWANCARA DENGAN KETUA KPU ILMU KOMPUTER 2020 YAITU HARRY SUSILO
     Novi	: Assalamualaikum Wr Wb.
     Semua	: Waalaikumsalam Wr Wb.
     Novi	:  --- Pembukaan ---
@@ -45,7 +45,7 @@ Untuk mendukung ide ini kami telah melakukan interview dengan mewawancarai 2 ora
             Saya rasa hanya itu saja, sama seperti  pemilu pada umumnya. 
     Lisa	: oke, Terima kasih Harry.
 
-# WAWANCARA DENGAN SALAH SATU MAHASISWA ILMU KOMPUTER YAITU CINDI TRI FITIKASARI
+### WAWANCARA DENGAN SALAH SATU MAHASISWA ILMU KOMPUTER YAITU CINDI TRI FITIKASARI
     Penanya	: Apakah kamu tau ttg evoting dan apa pendapatmu ttg evoting?
     Cindy	  : elektronik-voting. Untuk sistemnya seperti apa aslinya saya kurang tahu, tapi, mungkin e-vote itu voting Yang dilakukan degan melibatkan teknologi.  Vote online mungkin (?)
     Penanya : Apakah kamu pernah menggunakan sistem e-voting?
@@ -55,12 +55,12 @@ Untuk mendukung ide ini kami telah melakukan interview dengan mewawancarai 2 ora
     Penanya : Tahun ini pemilu dilaksanakan secara online, Apa harapanmu sebagai calon pemilih untuk pemilu tahun ini ? 
     Cindy 	: Harapannya dilakukan secara serentak
 
-# OBSERVASI
+## OBSERVASI
 Disini obeservasi yang kami lakukan adalah dengan bertanya kepada ketua KPU Ilmu Komputer 2020 saat interview. Hal ini kami lakukan mengingat saat ini sedang masa pendemi sehingga tidak ada kegiatan pemilu yang bisa kami amati, oleh karena itu kami memutuskan untuk bertanya dengan ketua KPU Ilmu Komputer tentang bagaimana proses atau mekanisme Pemilu BEM Ilmu Komputer ini. Berikut ini adalah hasilnya menurut ketua KPU Ilmu Komputer 2020 :
 
 Jika kita berkaca pada tahun lalu, itu dimulai dari calon pemilih yang nantinya kami (panitia KPU) kasih surat undangan untuk datang ke TPS dan menyoblos. Lalu ketika pemilih (mahasiswa ilkom) datang ke TPS, pemilih akan disuruh menunjukan kartu tanda mahasiswa (KTM) atau bisa menggunakan KRS (kartu rencana studi) mereka jika tidak ada KTM. Hal itu bertujuan untuk validasi kalau mereka adalah mahasiswa ilmu komputer. Setelah validasi, pemilih akan disuruh tanda tangan di daftar hadir pemilih yang telah disediakan oleh panitia, lalu setelahnya panitia akan memberikan 3 surat suara yang terdiri dari surat suara Prodi, Fakultas dan Universitas, lalu mengarahkan pemilih untuk ke bilik suara. Jika pemilih sudah selesai nyoblos, pemilih akan diarahkan ke kotak suara lalu pemilih akan disuruh menyelupkan salah satu jarinya ke tinta yang telah disediakan sebagai tanda bahwa pemilih telah menggunakan hak suaranya. Saya rasa hanya itu saja, sama seperti pemilu pada umumnya. 
 
-# Kesimpulan dari hasil Interview dan Observasi
+## Kesimpulan dari hasil Interview dan Observasi
 Dari hasil interview tersebut, sistem e-voting ini benar – benar diperlukan untuk saat ini, mengingat situasi pendemi dimana ini menjadi masalah karena tidak bisa mengadakan pemilu langsung. Selain masalah tersebut, ada beberapa masalah atau kendala yang sering terjadi pada pemilu langsung, yaitu pengeluaran pemilu langsung yang terlalu besar, menghamburkan banyak kertas, memakan waktu dan tempat.  Sehingga kami menawarkan solusi dari masalah – masalah tersebut dengan membuat sistem E-Voting KPU Ilmu Komputer berbasis aplikasi WEB.
 
 Lalu dari hasil interview tersebut, kami juga mendaptkan bayangan mengenai fitur – fitur apa saja yang nantinya akan diterapkan pada sistem e-voting ini. Menurut hasil interview dan hasil observasi, fitur – fitur yang nantinya diterapkan di sistem e-voting adalah:
