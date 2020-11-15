@@ -3,6 +3,9 @@
 2. Novitasari (1313618010)
 3. Lisa Arief (1313618033)
 
+# Analisis Requirement dengan Metode Interview dan Observasi
+* [link to see result of analisis requirement](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Mini%20Report%20(phase%201)/README.md)
+
 # Portofolio E-Voting KPU Ilmu Komputer UNJ
 E-Voting berasal dari kata electronic voting yang mengacu pada penggunaan teknologi informasi pada pelaksanaan pemungutan suara. E-Voting KPU Ilmu Komputer UNJ merupakan salah
 satu alternatif yang kami buat untuk masalah yang sedang dihadapi oleh KPU Ilmu Komputer UNJ yaitu tidak bisa mengadakan Pemilu secara langsung dikarenakan situasi pendemi sekarang ini. Selain itu E-Voting hadir untuk memecahkan masalah lain saat pemilu langsung yaitu E-Voting dapat menghemat pengeluaran panitia KPU, E-Voting dapat menghemat penggunaan kertas yang berlebihan, dan masih banyak lagi. Berikut ini adalah kelebihan E-Voting dari Pemilu langsung:
