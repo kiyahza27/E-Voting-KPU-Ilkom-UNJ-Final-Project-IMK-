@@ -47,10 +47,10 @@ Fitur - fitur tersebut dapat dilihat dari use case dibawah ini.
 ![Image of Use Case](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Use%20Case%20%26%20Bisnis%20Proses/Use%20Case.jpeg)
 
 ## Design Interaction Control
-#### Interaction Control Admin
+### Interaction Control Admin
 ![Image of ICA](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Mockup%20UI%20%26%20Design%20Interaction%20Control/interaction%20control%20admin.png)
 
-#### Interaction Control User
+### Interaction Control User
 ![Image of ICU](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Mockup%20UI%20%26%20Design%20Interaction%20Control/interaction%20control%20user.png)
 
 
