@@ -7,7 +7,7 @@
 * [link to see Video Interview (12 November 2020)](https://youtu.be/BFePZMF4zmQ)
 * [link to see Video Presentation & Survey (17 November 2020)](https://youtu.be/zePvA1gCxb0)
 
-## Analisis Requirement dengan Metode Interview dan Observasi
+## Analysis Requirement dengan Metode Interview dan Observasi
 * [link to see result of analisis requirement](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Mini%20Report%20(phase%201)/README.md)
 
 <h1 align="center"> Portofolio E-Voting KPU Ilmu Komputer UNJ </h1> 
