@@ -3,6 +3,9 @@
 2. Novitasari (1313618010)
 3. Lisa Arief (1313618033)
 
+# LINK Video Recording
+* [link to see Video Interview](https://youtu.be/BFePZMF4zmQ)
+
 ## Analisis Requirement dengan Metode Interview dan Observasi
 * [link to see result of analisis requirement](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Mini%20Report%20(phase%201)/README.md)
 
