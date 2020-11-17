@@ -24,7 +24,7 @@ E-Voting KPU Ilmu Komputer UNJ hadir dengan tujuan membantu panitia KPU Ilmu Kom
 
 ## Bisnis Proses
 Berikut adalah Bisnis Proses dari sistem E-voting ini :
-![Image of BP](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Use%20Case%20%26%20Bisnis%20Proses/Bisnis%20Proses.jpeg)
+![Image of BP](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Use%20Case%2CBisnis%20Proses%2C%20Activity%20diagram/Bisnis%20Proses.jpeg)
 
 ## Fitur
 Menurut hasil interview dan hasil observasi, fitur – fitur yang nantinya diterapkan di sistem e-voting adalah:
@@ -51,7 +51,7 @@ Dalam sistem ini, terdapat 2 role yakni admin dan pemilih, dimana admin itu adal
 
 #### Use Case
 Fitur - fitur tersebut dapat dilihat dari use case dibawah ini. 
-![Image of Use Case](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Use%20Case%20%26%20Bisnis%20Proses/Use%20Case.jpeg)
+![Image of Use Case](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Use%20Case%2CBisnis%20Proses%2C%20Activity%20diagram/Use%20Case.jpeg)
 
 ## Design Interaction Control
 ### Interaction Control Admin
@@ -59,6 +59,11 @@ Fitur - fitur tersebut dapat dilihat dari use case dibawah ini.
 
 ### Interaction Control User
 ![Image of ICU](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Mockup%20UI%20%26%20Design%20Interaction%20Control/interaction%20control%20user.png)
+
+## Activity Diagram 
+![Image of AD user](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Use%20Case%2CBisnis%20Proses%2C%20Activity%20diagram/AD%20user(pemilih).jpg)
+
+![Image of AD admin](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Use%20Case%2CBisnis%20Proses%2C%20Activity%20diagram/AD%20admin.jpg)
 
 ## Design Mockup UI
 ### Mockup UI Admin
