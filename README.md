@@ -41,6 +41,7 @@ Dalam sistem ini, terdapat 2 role yakni admin dan pemilih, dimana admin itu adal
 * Login
 * Mengolah Data Kandidat
 * Mengolah Data Pemilih
+* Statistik
 * Melihat Kandidat
 * Melihat Perolehan Suara
 
