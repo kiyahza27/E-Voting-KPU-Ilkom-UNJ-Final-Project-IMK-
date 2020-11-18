@@ -60,11 +60,6 @@ Fitur - fitur tersebut dapat dilihat dari use case dibawah ini.
 ### Interaction Control User
 ![Image of ICU](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Mockup%20UI%20%26%20Design%20Interaction%20Control/interaction%20control%20user.png)
 
-## Activity Diagram 
-![Image of AD user](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Use%20Case%2CBisnis%20Proses%2C%20Activity%20diagram/AD%20user(pemilih).jpg)
-
-![Image of AD admin](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Use%20Case%2CBisnis%20Proses%2C%20Activity%20diagram/AD%20admin.jpg)
-
 ## Design Mockup UI
 ### Mockup UI Admin
 * [link to see mockup UI Admin](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/tree/main/Mockup%20UI%20%26%20Design%20Interaction%20Control/UI%20Admin)
