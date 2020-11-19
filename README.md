@@ -8,7 +8,7 @@
 * [link to see Video Presentation & Survey (17 November 2020)](https://youtu.be/zePvA1gCxb0)
 
 ## Analysis Requirement dengan Metode Interview dan Observasi
-* [link to see result of analisis requirement](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Mini%20Report%20(phase%201)/README.md)
+* [link to see result of Analysis Requirement](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Mini%20Report%20(phase%201)/README.md)
 
 ## Report Writing Summary
 * [link to see Report Writing Summary](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Report%20Writing%20Summary/Report%20Writing%20Summary%20(Laporan%20Rangkuman%20IMK).pdf)
