@@ -56,7 +56,6 @@
 
 		<!-- Main Sidebar Container -->
 		<aside class="main-sidebar sidebar-dark-primary elevation-4">
-			<!-- Brand Logo -->
 			<a href="index.php" class="brand-link">
 				<img src="dist/img/voting.png" alt="AdminLTE Logo" class="brand-image" style="opacity: .8">
 				<span class="brand-text font-weight-light"> E - VOTING V.1.0</span>
