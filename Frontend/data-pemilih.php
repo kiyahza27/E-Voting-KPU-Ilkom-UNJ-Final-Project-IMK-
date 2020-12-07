@@ -117,7 +117,7 @@
 						</li>
 
 						<li class="nav-item">
-							<a href="?page=data-kotak" class="nav-link">
+							<a href="#" class="nav-link">
 								<i class="nav-icon far fa fa-table"></i>
 								<p>
 									Kotak Suara
@@ -126,7 +126,7 @@
 						</li>
 
 						<li class="nav-item">
-							<a href="?page=data-suara" class="nav-link">
+							<a href="#" class="nav-link">
 								<i class="nav-icon far fa fa-chart-pie"></i>
 								<p>
 									Quick Count
@@ -170,7 +170,7 @@
 
 						<li class="nav-header">Setting</li>
 						<li class="nav-item">
-							<a href="?page=data-pengguna" class="nav-link">
+							<a href="#" class="nav-link">
 								<i class="nav-icon far fa-user"></i>
 								<p>
 									Users
@@ -179,7 +179,7 @@
 						</li>
 
 						<li class="nav-item">
-							<a onclick="return confirm('Apakah anda yakin akan keluar ?')" href="logout.php" class="nav-link">
+							<a onclick="return confirm('Apakah anda yakin akan keluar ?')" href="#" class="nav-link">
 								<i class="nav-icon far fa-circle text-danger"></i>
 								<p>
 									Logout
