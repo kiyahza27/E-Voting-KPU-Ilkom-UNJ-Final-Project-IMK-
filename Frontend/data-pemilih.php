@@ -227,38 +227,6 @@
 						<th>Edit</th>
 					</tr>
 				</thead>
-				<tbody>
-
-					<tr>
-						<td>
-							1
-						</td>
-						<td>
-							Lisa
-						</td>
-						<td>
-							1313618033
-						</td>
-						<td>
-							2018
-						</td>
-						<td>
-							<span class="badge badge-warning">Belum memilih</span>
-						</td>
-						</td>
-						<td>
-							<a href="?page=edit-pemilih&kode=1" title="Ubah"
-							 class="btn btn-success btn-sm">
-								<i class="fa fa-edit"></i>
-							</a>
-							<a href="?page=del-pemilih&kode=1" onclick="return confirm('Anda Yakin Untuk Menghapus Data Ini ?')"
-							 title="Hapus" class="btn btn-danger btn-sm">
-								<i class="fa fa-trash"></i>
-							</a>
-						</td>
-					</tr>
-					
-				</tbody>
 				</tfoot>
 			</table>
 		</div>
@@ -324,33 +292,6 @@
 		});
 	</script>
 	
-	<script>
-		$(function() {
-			$("#example3").DataTable();
-			$('#example4').DataTable({
-				"paging": true,
-				"lengthChange": false,
-				"searching": false,
-				"ordering": true,
-				"info": true,
-				"autoWidth": false,
-			});
-		});
-	</script>
-	
-	<script>
-		$(function() {
-			$("#example5").DataTable();
-			$('#example6').DataTable({
-				"paging": true,
-				"lengthChange": false,
-				"searching": false,
-				"ordering": true,
-				"info": true,
-				"autoWidth": false,
-			});
-		});
-	</script>
 
 	<script>
 		$(function() {
