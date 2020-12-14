@@ -4,6 +4,16 @@
     $calon=$data['tot_calon'];
   }
 
+  $sql = $koneksi->query("SELECT COUNT(ID_CALON) as tot_calon  from tb_calon2");
+  while ($data= $sql->fetch_assoc()) {
+    $calon_fak=$data['tot_calon'];
+  }
+
+  $sql = $koneksi->query("SELECT COUNT(ID_CALON) as tot_calon  from tb_calon3");
+  while ($data= $sql->fetch_assoc()) {
+    $calon_uni=$data['tot_calon'];
+  }
+
   $sql = $koneksi->query("SELECT COUNT(id_pengguna) as tot_pemilih  from tb_pengguna where level='Pemilih'");
   while ($data= $sql->fetch_assoc()) {
     $pemilih=$data['tot_pemilih'];
@@ -17,6 +27,28 @@
   $sql = $koneksi->query("SELECT COUNT(id_pengguna) as belum  from tb_pengguna where level='Pemilih' and status='1'");
   while ($data= $sql->fetch_assoc()) {
     $belum=$data['belum'];
+  }
+
+
+  $sql = $koneksi->query("SELECT COUNT(id_pengguna) as sudah  from tb_pengguna where level='Pemilih' and status2='0'");
+  while ($data= $sql->fetch_assoc()) {
+    $sudah2=$data['sudah'];
+  }
+
+  $sql = $koneksi->query("SELECT COUNT(id_pengguna) as belum  from tb_pengguna where level='Pemilih' and status2='1'");
+  while ($data= $sql->fetch_assoc()) {
+    $belum2=$data['belum'];
+  }
+
+  
+  $sql = $koneksi->query("SELECT COUNT(id_pengguna) as sudah  from tb_pengguna where level='Pemilih' and status3='0'");
+  while ($data= $sql->fetch_assoc()) {
+    $sudah3=$data['sudah'];
+  }
+
+  $sql = $koneksi->query("SELECT COUNT(id_pengguna) as belum  from tb_pengguna where level='Pemilih' and status3='1'");
+  while ($data= $sql->fetch_assoc()) {
+    $belum3=$data['belum'];
   }
 
 ?>
@@ -50,8 +82,7 @@
 			<div class="icon">
 				<i class="ion ion-stats-bars"></i>
 			</div>
-			<a href="" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -69,8 +100,7 @@
 			<div class="icon">
 				<i class="ion ion-stats-bars"></i>
 			</div>
-			<a href="" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -88,8 +118,7 @@
 			<div class="icon">
 				<i class="ion ion-person-add"></i>
 			</div>
-			<a href="#" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="#" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -107,8 +136,7 @@
 			<div class="icon">
 				<i class="ion ion-person-add"></i>
 			</div>
-			<a href="#" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="#" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -121,7 +149,7 @@
 		<div class="small-box bg-info">
 			<div class="inner">
 				<h5>
-					<?php echo $calon; ?>
+					<?php echo $calon_fak; ?>
 				</h5>
 
 				<p>Jumlah Kandidat</p>
@@ -129,8 +157,7 @@
 			<div class="icon">
 				<i class="ion ion-stats-bars"></i>
 			</div>
-			<a href="" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -148,8 +175,7 @@
 			<div class="icon">
 				<i class="ion ion-stats-bars"></i>
 			</div>
-			<a href="" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -159,7 +185,7 @@
 		<div class="small-box bg-warning">
 			<div class="inner">
 				<h5>
-					<?php echo $sudah; ?>
+					<?php echo $sudah2; ?>
 				</h5>
 
 				<p>Sudah Memilih</p>
@@ -167,8 +193,7 @@
 			<div class="icon">
 				<i class="ion ion-person-add"></i>
 			</div>
-			<a href="#" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="#" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -178,7 +203,7 @@
 		<div class="small-box bg-danger">
 			<div class="inner">
 				<h5>
-					<?php echo $belum; ?>
+					<?php echo $belum2; ?>
 				</h5>
 
 				<p>Belum Memlih</p>
@@ -186,8 +211,7 @@
 			<div class="icon">
 				<i class="ion ion-person-add"></i>
 			</div>
-			<a href="#" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="#" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -200,7 +224,7 @@
 		<div class="small-box bg-info">
 			<div class="inner">
 				<h5>
-					<?php echo $calon; ?>
+					<?php echo $calon_uni; ?>
 				</h5>
 
 				<p>Jumlah Kandidat</p>
@@ -208,8 +232,7 @@
 			<div class="icon">
 				<i class="ion ion-stats-bars"></i>
 			</div>
-			<a href="" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -227,8 +250,7 @@
 			<div class="icon">
 				<i class="ion ion-stats-bars"></i>
 			</div>
-			<a href="" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -238,7 +260,7 @@
 		<div class="small-box bg-warning">
 			<div class="inner">
 				<h5>
-					<?php echo $sudah; ?>
+					<?php echo $sudah3; ?>
 				</h5>
 
 				<p>Sudah Memilih</p>
@@ -246,8 +268,7 @@
 			<div class="icon">
 				<i class="ion ion-person-add"></i>
 			</div>
-			<a href="#" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="#" class="small-box-footer">
 			</a>
 		</div>
 	</div>
@@ -257,7 +278,7 @@
 		<div class="small-box bg-danger">
 			<div class="inner">
 				<h5>
-					<?php echo $belum; ?>
+					<?php echo $belum3; ?>
 				</h5>
 
 				<p>Belum Memlih</p>
@@ -265,8 +286,7 @@
 			<div class="icon">
 				<i class="ion ion-person-add"></i>
 			</div>
-			<a href="#" class="small-box-footer">Lihat Selengkapnya
-				<i class="fas fa-arrow-circle-right"></i>
+			<a href="#" class="small-box-footer">
 			</a>
 		</div>
 	</div>
