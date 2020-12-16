@@ -43,8 +43,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 	<!-- Alert -->
 	<script src="plugins/alert.js"></script>
-	<!-- Auto Refresh 
-	<script src="jquery-3.1.1.js" type="text/javascript"></script>-->
+	<!-- Auto Refresh -->
+	<script src="jquery-3.1.1.js" type="text/javascript"></script>
 	<script>
 		setInterval(function() {
 			$(".realtime").load("admin/suara/data_suara.php").fadeIn("slow");
@@ -134,7 +134,19 @@
 								<li class="nav-item">
 									<a href="?page=data-calon" class="nav-link">
 										<i class="nav-icon far fa-circle text-success"></i>
-										<p>Data Kandidat</p>
+										<p>Data Kandidat Prodi</p>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="?page=data-calon2" class="nav-link">
+										<i class="nav-icon far fa-circle text-success"></i>
+										<p>Data Kandidat Fakultas</p>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="?page=data-calon3" class="nav-link">
+										<i class="nav-icon far fa-circle text-success"></i>
+										<p>Data Kandidat Universitas</p>
 									</a>
 								</li>
 								<li class="nav-item">
@@ -144,6 +156,55 @@
 									</a>
 								</li>
 							</ul>
+						</li>
+
+						<!--
+						<li class="nav-item">
+							<a href="?page=PsSQAdT" class="nav-link">
+								<i class="nav-icon far fa fa-edit"></i>
+								<p>
+									Bilik Suara
+								</p>
+							</a>
+						</li>
+						-->
+
+						<!--
+						<li class="nav-item">
+							<a href="?page=data-kotak" class="nav-link">
+								<i class="nav-icon far fa fa-table"></i>
+								<p>
+									Kotak Suara
+								</p>
+							</a>
+						</li>
+						-->
+
+						<li class="nav-item">
+							<a href="?page=data-kotak" class="nav-link">
+								<i class="nav-icon far fa fa-table"></i>
+								<p>
+									Kotak Suara Prodi
+								</p>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="?page=data-kotak2" class="nav-link">
+								<i class="nav-icon far fa fa-table"></i>
+								<p>
+									Kotak Suara Fakultas
+								</p>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="?page=data-kotak3" class="nav-link">
+								<i class="nav-icon far fa fa-table"></i>
+								<p>
+									Kotak Suara Universitas
+								</p>
+							</a>
 						</li>
 
 						<li class="nav-item">
@@ -158,19 +219,92 @@
 							</a>
 						</li>
 
+						<!--
+						<li class="nav-item has-treeview">
+							<a href="#" class="nav-link">
+								<i class="nav-icon fas fa-file"></i>
+								<p>
+									Laporan
+									<i class="fas fa-angle-left right"></i>
+								</p>
+							</a>
+							<ul class="nav nav-treeview">
+								<li class="nav-item">
+									<a href="#" class="nav-link">
+										<i class="nav-icon far fa-circle text-info"></i>
+										<p>Daftar Kandidat</p>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">
+										<i class="nav-icon far fa-circle text-info"></i>
+										<p>Daftar pemilih</p>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="#" class="nav-link">
+										<i class="nav-icon far fa-circle text-info"></i>
+										<p>Perolehan Suara</p>
+									</a>
+								</li>
+							</ul>
+						</li>
+						-->
+
+						<!--
+						<li class="nav-header">Setting</li>
+						<li class="nav-item">
+							<a href="?page=data-pengguna" class="nav-link">
+								<i class="nav-icon far fa-user"></i>
+								<p>
+									Users
+								</p>
+							</a>
+						</li>
+						-->
+
 						<?php
           				} elseif($data_level=="Pemilih"){
           				?>
 						<li class="nav-item">
 							<a href="index.php" class="nav-link">
-								<i class="nav-icon far fa fa-edit"></i>
+								<i class="nav-icon fas fa-tachometer-alt"></i>
 								<p>
-									Bilik Suara
+									Dashboard
 								</p>
 							</a>
 						</li>
+						<li class="nav-item has-treeview">
+							<a href="#" class="nav-link">
+								<i class="nav-icon far fa fa-edit"></i>
+								<p>
+									Bilik Suara
+									<i class="fas fa-angle-left right"></i>
+								</p>
+							</a>
+							<ul class="nav nav-treeview">
+								<li class="nav-item">
+									<a href="?page=bilik-suara" class="nav-link">
+										<i class="nav-icon far fa-circle text-success"></i>
+										<p>Prodi</p>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="?page=bilik-suara2" class="nav-link">
+										<i class="nav-icon far fa-circle text-success"></i>
+										<p>Fakultas</p>
+									</a>
+								</li>
+								<li class="nav-item">
+									<a href="?page=bilik-suara3" class="nav-link">
+										<i class="nav-icon far fa-circle text-success"></i>
+										<p>Universitas</p>
+									</a>
+								</li>
+							</ul>
+						</li>
 
-						<li class="nav-header">Setting</li>
+
 						<?php
 							}
 						?>
@@ -210,15 +344,138 @@
               	case 'admin':
                   include "home/admin.php";
                   break;
+              	case 'petugas':
+                  include "home/bendahara.php";
+				  break;
 				case 'pemilih':
                   include "home/pemilih.php";
+                  break;
+
+				//Pengguna
+				case 'data-pengguna':
+					include "admin/pengguna/data_pengguna.php";
+					break;
+				case 'add-pengguna':
+					include "admin/pengguna/add_pengguna.php";
+					break;
+				case 'edit-pengguna':
+					include "admin/pengguna/edit_pengguna.php";
+					break;
+				case 'del-pengguna':
+					include "admin/pengguna/del_pengguna.php";
+					break;
+					
+					//calon
+				case 'data-calon':
+					include "admin/calon/data_calon.php";
+					break;
+				case 'data-calon2':
+					include "admin/calon/data_calon2.php";
+					break;
+				case 'data-calon3':
+					include "admin/calon/data_calon3.php";
+					break;
+				case 'add-calon':
+					include "admin/calon/add_calon.php";
+					break;
+				case 'add-calon2':
+					include "admin/calon/add_calon2.php";
+					break;
+				case 'add-calon3':
+					include "admin/calon/add_calon3.php";
+					break;
+				case 'edit-calon':
+					include "admin/calon/edit_calon.php";
+					break;
+				case 'edit-calon2':
+					include "admin/calon/edit_calon2.php";
+					break;
+				case 'edit-calon3':
+					include "admin/calon/edit_calon3.php";
+					break;
+				case 'del-calon':
+					include "admin/calon/del_calon.php";
+					break;
+				case 'del-calon2':
+					include "admin/calon/del_calon2.php";
+					break;
+				case 'del-calon3':
+					include "admin/calon/del_calon3.php";
+					break;
+					
+					//Pemilih
+				case 'data-pemilih':
+					include "admin/pemilih/data_pemilih.php";
+					break;
+				case 'add-pemilih':
+					include "admin/pemilih/add_pemilih.php";
+					break;
+				case 'edit-pemilih':
+					include "admin/pemilih/edit_pemilih.php";
+					break;
+				case 'del-pemilih':
+					include "admin/pemilih/del_pemilih.php";
+					break;
+					
+					//Bilik suara
+				case 'bilik-suara':
+					include "pemilih/calon/bilik_suara.php";
+					break;
+				case 'bilik-suara2':
+					include "pemilih/calon/bilik_suara2.php";
+					break;
+				case 'bilik-suara3':
+					include "pemilih/calon/bilik_suara3.php";
+					break;
+				case 'pilih-calon':
+					include "pemilih/calon/pilih_calon.php";
+					break;
+				case 'pilih-calon2':
+					include "pemilih/calon/pilih_calon2.php";
+					break;
+				case 'pilih-calon3':
+					include "pemilih/calon/pilih_calon3.php";
+					break;
+				case 'buka-calon':
+                  include "pemilih/calon/buka_calon.php";
+				  break;
+				case 'buka-calon2':
+				  include "pemilih/calon/buka_calon2.php";
+				  break;
+				case 'buka-calon3':
+				  include "pemilih/calon/buka_calon3.php";
+				  break;
+				case 'view':
+                  include "pemilih/calon/view_calon.php";
+				  break;
+				case 'view2':
+				  include "pemilih/calon/view_calon2.php";
+				  break;
+				case 'view3':
+				  include "pemilih/calon/view_calon3.php";
+				  break;
+
+
+
+				//Kotak suara
+				case 'data-kotak':
+                  include "admin/kotak/data_kotak.php";
+				  break;
+				case 'data-kotak2':
+				  include "admin/kotak/data_kotak2.php";
+				  break;
+				case 'data-kotak3':
+				  include "admin/kotak/data_kotak3.php";
+				  break;
+				case 'data-suara':
+                  include "admin/suara/data_suara.php";
                   break;
 
 
           
               //default
               default:
-                  echo "<center><h1> PROGRESS</h1></center>";
+                  echo "<center><h1> ERROR !</h1></center>";
                   break;    
           }
       }else{
