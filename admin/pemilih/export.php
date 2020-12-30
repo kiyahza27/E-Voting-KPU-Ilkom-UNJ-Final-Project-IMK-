@@ -12,7 +12,7 @@ if($query->num_rows > 0){
     $f = fopen('php://memory', 'w');
     
     //set column headers
-    $fields = array('ID', 'Name', 'Username', 'Password', 'Level', 'Status Prodi', 'Status Fakultas', 'Status Universitas');
+    $fields = array('ID', 'Name', 'Username', 'Password', 'Angkatan', 'Status Prodi', 'Status Fakultas', 'Status Universitas');
     fputcsv($f, $fields, $delimiter);
     
     //output each row of the data, format line as csv and write to file pointer

@@ -96,6 +96,7 @@ CREATE TABLE `tb_pengguna` (
   `nama_pengguna` varchar(100) NOT NULL,
   `username` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL,
+  `angkatan` varchar(50) NOT NULL,
   `level` enum('Administrator','Pemilih') NOT NULL,
   `status` enum('1','0') NOT NULL,
   `status2` enum('1','0') NOT NULL,
@@ -107,13 +108,13 @@ CREATE TABLE `tb_pengguna` (
 -- Dumping data for table `tb_pengguna`
 --
 
-INSERT INTO `tb_pengguna` (`id_pengguna`, `nama_pengguna`, `username`, `password`, `level`, `status`, `status2`, `status3`, `jenis`) VALUES
-(1, 'Novitasari', 'admin1', '1', 'Administrator', '1', '1', '1', 'PAN'),
-(2, 'Zakiyah Hamidah', 'admin2', '2', 'Administrator', '1', '1', '1', 'PAN'),
-(3, 'Lisa Arief', 'admin3', '3', 'Administrator', '1', '1', '1', 'PAN'),
-(11, 'Lisa Arief', '123', '1006', 'Pemilih', '1', '1', '1', 'PST'),
-(12, 'Novitasari', '1234', '1127', 'Pemilih', '1', '1', '1', 'PST'),
-(13, 'Zakiyah Hamidah', '1235', '2456', 'Pemilih', '0', '0', '0', 'PST');
+INSERT INTO `tb_pengguna` (`id_pengguna`, `nama_pengguna`, `username`, `angkatan`, `password`, `level`, `status`, `status2`, `status3`, `jenis`) VALUES
+(1, 'Novitasari', 'admin1', '2018', '1', 'Administrator', '1', '1', '1', 'PAN'),
+(2, 'Zakiyah Hamidah', 'admin2', '2018','2', 'Administrator', '1', '1', '1', 'PAN'),
+(3, 'Lisa Arief', 'admin3', '3', '2018','Administrator', '1', '1', '1', 'PAN'),
+(11, 'Lisa Arief', '1233', '2018','1006', 'Pemilih', '1', '1', '1', 'PST'),
+(12, 'Novitasari', '1234', '2018','1127', 'Pemilih', '1', '1', '1', 'PST'),
+(13, 'Zakiyah Hamidah', '1235', '2018','2456', 'Pemilih', '0', '0', '0', 'PST');
 
 -- --------------------------------------------------------
 

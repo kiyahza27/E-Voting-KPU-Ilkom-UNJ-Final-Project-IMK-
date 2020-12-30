@@ -158,28 +158,6 @@
 							</ul>
 						</li>
 
-						<!--
-						<li class="nav-item">
-							<a href="?page=PsSQAdT" class="nav-link">
-								<i class="nav-icon far fa fa-edit"></i>
-								<p>
-									Bilik Suara
-								</p>
-							</a>
-						</li>
-						-->
-
-						<!--
-						<li class="nav-item">
-							<a href="?page=data-kotak" class="nav-link">
-								<i class="nav-icon far fa fa-table"></i>
-								<p>
-									Kotak Suara
-								</p>
-							</a>
-						</li>
-						-->
-
 						<li class="nav-item">
 							<a href="?page=data-kotak" class="nav-link">
 								<i class="nav-icon far fa fa-table"></i>
@@ -218,50 +196,6 @@
 								</p>
 							</a>
 						</li>
-
-						<!--
-						<li class="nav-item has-treeview">
-							<a href="#" class="nav-link">
-								<i class="nav-icon fas fa-file"></i>
-								<p>
-									Laporan
-									<i class="fas fa-angle-left right"></i>
-								</p>
-							</a>
-							<ul class="nav nav-treeview">
-								<li class="nav-item">
-									<a href="#" class="nav-link">
-										<i class="nav-icon far fa-circle text-info"></i>
-										<p>Daftar Kandidat</p>
-									</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">
-										<i class="nav-icon far fa-circle text-info"></i>
-										<p>Daftar pemilih</p>
-									</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">
-										<i class="nav-icon far fa-circle text-info"></i>
-										<p>Perolehan Suara</p>
-									</a>
-								</li>
-							</ul>
-						</li>
-						-->
-
-						<!--
-						<li class="nav-header">Setting</li>
-						<li class="nav-item">
-							<a href="?page=data-pengguna" class="nav-link">
-								<i class="nav-icon far fa-user"></i>
-								<p>
-									Users
-								</p>
-							</a>
-						</li>
-						-->
 
 						<?php
           				} elseif($data_level=="Pemilih"){
@@ -344,27 +278,10 @@
               	case 'admin':
                   include "home/admin.php";
                   break;
-              	case 'petugas':
-                  include "home/bendahara.php";
-				  break;
 				case 'pemilih':
                   include "home/pemilih.php";
                   break;
 
-				//Pengguna
-				case 'data-pengguna':
-					include "admin/pengguna/data_pengguna.php";
-					break;
-				case 'add-pengguna':
-					include "admin/pengguna/add_pengguna.php";
-					break;
-				case 'edit-pengguna':
-					include "admin/pengguna/edit_pengguna.php";
-					break;
-				case 'del-pengguna':
-					include "admin/pengguna/del_pengguna.php";
-					break;
-					
 					//calon
 				case 'data-calon':
 					include "admin/calon/data_calon.php";
@@ -475,7 +392,7 @@
           
               //default
               default:
-                  echo "<center><h1> ERROR !</h1></center>";
+                  echo "<center><h1> PROGRESS !</h1></center>";
                   break;    
           }
       }else{
@@ -560,4 +477,5 @@
 	</script>
 
 </body>
+
 </html>
