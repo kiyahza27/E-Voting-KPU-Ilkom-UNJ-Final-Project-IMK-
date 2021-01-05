@@ -21,9 +21,9 @@
 		?>
 		<!-- Profile Image -->
 
-		<div class="col-md-4 h-100">
-			<div class="card card-primary card-outline">
-				<div class="card-body">
+		<div class="col-sm">
+			<div class="card" >
+				<div class="card-body ">
 					<h4 class="profile-username text-center">
 						<?php echo $data['id_calon']; ?>
 					</h4>

@@ -12,7 +12,7 @@
 						<th>No</th>
 						<th>Nama Kandidat</th>
 						<th>No Urut Kandidat</th>
-						<th>UsernamePemilih</th>
+						<th>NIM Pemilih</th>
 						<th>Waktu Memilih</th>
 					</tr>
 				</thead>

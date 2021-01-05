@@ -1,3 +1,3 @@
 <?php
-$koneksi = new mysqli ("localhost","root","","db_vote");
+$koneksi = mysqli_connect("localhost","root","","db_vote");
 ?>

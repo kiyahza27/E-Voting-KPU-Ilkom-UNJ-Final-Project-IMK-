@@ -13,6 +13,7 @@
 	<link rel="icon" href="dist/img/voting.png">
 	<!-- Tell the browser to be responsive to screen width -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
@@ -20,28 +21,31 @@
 	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<!-- icheck bootstrap -->
 	<link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-	<!-- Theme style -->
-	<link rel="stylesheet" href="dist/css/adminlte.min.css">
 	<!-- Google Font: Source Sans Pro -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	<style>
+	</style>
 </head>
 
-<body class="hold-transition login-page">
-	<div class="login-box">
-		<div class="login-logo">
-			<img src="dist/img/voting.png" width=170px />
-			<br>
-			<a href="login.php">
-				Sistem Informasi E-Voting
-				KPU Ilmu Komputer UNJ
-			</a>
-		</div>
-		<!-- /.login-logo -->
-		<div class="card">
-			<div class="card-body login-card-body">
-				<p class="login-box-msg">Login</p>
+<body>
+<div class="container h-100">
+    <div class="row h-100 justify-content-center align-items-center">
+      <div>
+        <div class="card card-design success-design mx-auto" style="margin-top: 25px;">
+          <div class="card-body">
+				<div class="login-box">
+					<div class="login-logo" style='text-align:center;'>
+						<img src="dist/img/voting.png" width=170px class="center">
+						<br>
+						<p style="font-size:25px;">
+							Sistem Informasi E-Voting KPU 
+						</p>
+						<p style="font-size:25px;">
+							Ilmu Komputer UNJ
+						</p>
+					</div>
 
-				<form action="" method="post">
+				<form class="form-signin" action="" method="post">
 					<div class="input-group mb-3">
 						<input type="text" class="form-control" name="username" placeholder="Nomor Induk Mahasiswa" required>
 						<div class="input-group-append">
@@ -67,8 +71,11 @@
 				</form>
 
 				</div>
-			</div>
-		</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 		<!-- /.login-box -->
 
 		<!-- jQuery -->

@@ -19,7 +19,7 @@
 						<th>Foto Kandidat</th>
 						<th>Jabatan</th>
 						<th>Keterangan</th>
-						<th>Aksi</th>
+						<th>Edit</th>
 					</tr>
 				</thead>
 				<tbody>

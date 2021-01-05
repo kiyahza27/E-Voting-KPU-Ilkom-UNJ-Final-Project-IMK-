@@ -62,16 +62,62 @@
 .column {
   float: left;
   width: 25%;
-  padding: 10px;
+  border-style: solid;
+  border: 1px;
+  padding: 3px;
+}
+
+.small-box_bg-info{
+	background: blue;
+	color: white;
+	border-radius: 8px;
+}
+
+.small-box_bg-success{
+	background: green;
+	color: white;
+	border-radius: 8px;
+}
+
+.small-box_bg-warning{
+	background: orange;
+	color: white;
+	border-radius: 8px;
+}
+
+.small-box_bg-danger{
+	background: #800000;
+	color: white;
+	border-radius: 8px;
+}
+
+.row{
+	margin-left:3px;
+	margin-top:3px;
+}
+
+h5 {
+	margin-left:5px;
+	margin-top:10px;
+}
+
+p {
+	margin-left:5px;
+	margin-top:5px;
+}
+
+.icon {
+	margin-left:5px;
+	margin-top:5px;
 }
 
 </style>
-
+<br>
 <a><b>Prodi</b></a>
 <div class="row">
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-info">
+		<div class="small-box_bg-info">
 			<div class="inner">
 				<h5>
 					<?php echo $calon; ?>
@@ -89,7 +135,7 @@
 	<!-- ./col -->
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-success">
+		<div class="small-box_bg-success">
 			<div class="inner">
 				<h5>
 					<?php echo $pemilih; ?>
@@ -107,7 +153,7 @@
 	<!-- ./col -->
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-warning">
+		<div class="small-box_bg-warning">
 			<div class="inner">
 				<h5>
 					<?php echo $sudah; ?>
@@ -125,7 +171,7 @@
 	<!-- ./col -->
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-danger">
+		<div class="small-box_bg-danger">
 			<div class="inner">
 				<h5>
 					<?php echo $belum; ?>
@@ -141,12 +187,14 @@
 		</div>
 	</div>
 </div>
+<br>
+<br>
 
 <a><b>Fakultas</b></a>
 <div class="row">
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-info">
+		<div class="small-box_bg-info">
 			<div class="inner">
 				<h5>
 					<?php echo $calon_fak; ?>
@@ -164,7 +212,7 @@
 	<!-- ./col -->
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-success">
+		<div class="small-box_bg-success">
 			<div class="inner">
 				<h5>
 					<?php echo $pemilih; ?>
@@ -182,7 +230,7 @@
 	<!-- ./col -->
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-warning">
+		<div class="small-box_bg-warning">
 			<div class="inner">
 				<h5>
 					<?php echo $sudah2; ?>
@@ -200,7 +248,7 @@
 	<!-- ./col -->
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-danger">
+		<div class="small-box_bg-danger">
 			<div class="inner">
 				<h5>
 					<?php echo $belum2; ?>
@@ -216,12 +264,14 @@
 		</div>
 	</div>
 </div>
+<br>
 
+<br>
 <a><b>Universitas</b></a>
 <div class="row">
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-info">
+		<div class="small-box_bg-info">
 			<div class="inner">
 				<h5>
 					<?php echo $calon_uni; ?>
@@ -239,7 +289,7 @@
 	<!-- ./col -->
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-success">
+		<div class="small-box_bg-success">
 			<div class="inner">
 				<h5>
 					<?php echo $pemilih; ?>
@@ -257,7 +307,7 @@
 	<!-- ./col -->
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-warning">
+		<div class="small-box_bg-warning">
 			<div class="inner">
 				<h5>
 					<?php echo $sudah3; ?>
@@ -275,7 +325,7 @@
 	<!-- ./col -->
 	<div class="column">
 		<!-- small box -->
-		<div class="small-box bg-danger">
+		<div class="small-box_bg-danger">
 			<div class="inner">
 				<h5>
 					<?php echo $belum3; ?>
@@ -291,3 +341,4 @@
 		</div>
 	</div>
 </div>
+<br>

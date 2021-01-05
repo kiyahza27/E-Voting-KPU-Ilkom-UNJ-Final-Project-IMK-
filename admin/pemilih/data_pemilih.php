@@ -3,9 +3,10 @@
 		<h3 class="card-title">
 			<i class="fa fa-table"></i> Data Pemilih</h3>
 	</div>
+	</div>
 	<!-- /.card-header -->
-	<div class="card-body">
-		<div class="table-responsive">
+	<div class="">
+		<div class="">
 			<div>
 				<a href="?page=add-pemilih" class="btn btn-primary">
 					<i class="fa fa-edit"></i> Tambah Data</a>
@@ -14,7 +15,8 @@
 			</div>
 
 			<br>
-			<table id="example1" class="table table-bordered table-striped">
+
+			<table class="table">
 				<thead>
 					<tr>
 						<th>No</th>

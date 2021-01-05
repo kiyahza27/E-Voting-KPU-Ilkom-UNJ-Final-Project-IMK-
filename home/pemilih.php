@@ -22,6 +22,14 @@
 	<h3>Anda belum melakukan Pemilu pada tingkat Prodi!</h3>
 </div>
 
+<style>
+.small-box_bg-info{
+	background: blue;
+	color: white;
+}
+
+</style>
+
 <!-- /.card-body -->
 <?php }elseif ($status==0) { ?>
 
@@ -34,13 +42,14 @@
 
 <?php } ?> 
 
+<br>
 
 <?php if($status2==1){ ?>
 
 	<div class="alert alert-warning alert-dismissible">
 	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 	<h4>
-		<i class="icon fas fa-info"></i>Info Prodi</h4>
+		<i class="icon fas fa-info"></i>Info Fakultas</h4>
 	<h3>Anda belum melakukan Pemilu pada tingkat Fakultas!</h3>
 </div>
 
@@ -50,19 +59,21 @@
 <div class="alert alert-info alert-dismissible">
 	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 	<h4>
-		<i class="icon fas fa-info"></i>Info Prodi</h4>
+		<i class="icon fas fa-info"></i>Info Fakultas</h4>
 	<h3>Anda sudah menggukan Hak Suara dengan baik, Terimakasih.</h3>
 </div>
 
 <?php }  
 ?> 
 
+<br>
+
 <?php if($status3==1){ ?>
 
 <div class="alert alert-warning alert-dismissible">
 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 <h4>
-	<i class="icon fas fa-info"></i>Info Prodi</h4>
+	<i class="icon fas fa-info"></i>Info Universitas</h4>
 <h3>Anda belum melakukan Pemilu pada tingkat Universitas!</h3>
 </div>
 
@@ -72,7 +83,7 @@
 <div class="alert alert-info alert-dismissible">
 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
 <h4>
-	<i class="icon fas fa-info"></i>Info Prodi</h4>
+	<i class="icon fas fa-info"></i>Info Universitas</h4>
 <h3>Anda sudah menggukan Hak Suara dengan baik, Terimakasih.</h3>
 </div>
 

@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 14, 2020 at 12:38 PM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 7.2.13
+-- Generation Time: Jan 05, 2021 at 07:11 AM
+-- Server version: 10.1.38-MariaDB
+-- PHP Version: 7.3.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -41,7 +41,8 @@ CREATE TABLE `tb_calon` (
 --
 
 INSERT INTO `tb_calon` (`id_calon`, `nama_calon`, `foto_calon`, `level`, `keterangan`) VALUES
-('1', 'Nama Kandidat Prodi', 'prodi.png', 'Prodi', 'Prodi');
+('1', 'Nama Kandidat Prodi', 'prodi.png', 'Prodi', 'Prodi'),
+('2', 'Nama Kandidat Prodi 2', 'prodi2.png', 'Prodi', 'Prodi 2');
 
 -- --------------------------------------------------------
 
@@ -108,13 +109,12 @@ CREATE TABLE `tb_pengguna` (
 -- Dumping data for table `tb_pengguna`
 --
 
-INSERT INTO `tb_pengguna` (`id_pengguna`, `nama_pengguna`, `username`, `angkatan`, `password`, `level`, `status`, `status2`, `status3`, `jenis`) VALUES
-(1, 'Novitasari', 'admin1', '2018', '1', 'Administrator', '1', '1', '1', 'PAN'),
-(2, 'Zakiyah Hamidah', 'admin2', '2018','2', 'Administrator', '1', '1', '1', 'PAN'),
-(3, 'Lisa Arief', 'admin3', '3', '2018','Administrator', '1', '1', '1', 'PAN'),
-(11, 'Lisa Arief', '1233', '2018','1006', 'Pemilih', '1', '1', '1', 'PST'),
-(12, 'Novitasari', '1234', '2018','1127', 'Pemilih', '1', '1', '1', 'PST'),
-(13, 'Zakiyah Hamidah', '1235', '2018','2456', 'Pemilih', '0', '0', '0', 'PST');
+INSERT INTO `tb_pengguna` (`id_pengguna`, `nama_pengguna`, `username`, `password`, `angkatan`, `level`, `status`, `status2`, `status3`, `jenis`) VALUES
+(1, 'Novitasari', 'admin1', '1', '2018', 'Administrator', '1', '1', '1', 'PAN'),
+(2, 'Zakiyah Hamidah', 'admin2', '2', '2018', 'Administrator', '1', '1', '1', 'PAN'),
+(11, 'Lisa Arief', '1313618033', '1006', '2018', 'Pemilih', '0', '0', '0', 'PST'),
+(12, 'Novitasari', '1313618009', '1127', '2018', 'Pemilih', '1', '1', '1', 'PST'),
+(13, 'Zakiyah Hamidah', '1313618017', '2456', '2018', 'Pemilih', '1', '1', '1', 'PST');
 
 -- --------------------------------------------------------
 
@@ -134,7 +134,7 @@ CREATE TABLE `tb_vote` (
 --
 
 INSERT INTO `tb_vote` (`id_vote`, `id_calon`, `id_pemilih`, `date`) VALUES
-(25, '1', 1235, '2020-12-14 18:34:27');
+(30, '1', 1313618033, '2021-01-05 13:03:20');
 
 -- --------------------------------------------------------
 
@@ -154,7 +154,7 @@ CREATE TABLE `tb_vote2` (
 --
 
 INSERT INTO `tb_vote2` (`id_vote`, `id_calon`, `id_pemilih`, `date`) VALUES
-(25, '1', 1235, '2020-12-14 18:34:36');
+(30, '1', 1313618033, '2021-01-05 13:03:24');
 
 -- --------------------------------------------------------
 
@@ -174,7 +174,7 @@ CREATE TABLE `tb_vote3` (
 --
 
 INSERT INTO `tb_vote3` (`id_vote`, `id_calon`, `id_pemilih`, `date`) VALUES
-(25, '1', 1235, '2020-12-14 18:34:43');
+(29, '1', 1313618033, '2021-01-05 13:03:28');
 
 --
 -- Indexes for dumped tables
@@ -233,25 +233,25 @@ ALTER TABLE `tb_vote3`
 -- AUTO_INCREMENT for table `tb_pengguna`
 --
 ALTER TABLE `tb_pengguna`
-  MODIFY `id_pengguna` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id_pengguna` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `tb_vote`
 --
 ALTER TABLE `tb_vote`
-  MODIFY `id_vote` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id_vote` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT for table `tb_vote2`
 --
 ALTER TABLE `tb_vote2`
-  MODIFY `id_vote` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id_vote` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT for table `tb_vote3`
 --
 ALTER TABLE `tb_vote3`
-  MODIFY `id_vote` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id_vote` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
