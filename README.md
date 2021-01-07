@@ -74,14 +74,14 @@ Fitur - fitur tersebut dapat dilihat dari use case dibawah ini.
 ## User Acceptance Conference & Feedback
 
 ### Admin
-* [link to see](https://youtu.be/8JgNMYCSJ68)
+* Video Conference Admin: [link](https://youtu.be/8JgNMYCSJ68)
 
 ### User
-* [link to see](https://youtu.be/xV-8Dnp7yII)
+* Video Conference User: [link](https://youtu.be/xV-8Dnp7yII)
 
 ## Final Report
 
-* [link to Final Project Report](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Final%20Project%20Report/Laporan%20Akhir%20IMK%20E-Voting%20KPU%20Ilkom.pdf)
+* Final Report: [link to see](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Final%20Project%20Report/Laporan%20Akhir%20IMK%20E-Voting%20KPU%20Ilkom.pdf)
 
 ## Deployment Site
 
