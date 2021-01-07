@@ -70,3 +70,23 @@ Fitur - fitur tersebut dapat dilihat dari use case dibawah ini.
 
 ### Mockup UI User (Pemilih)
 * [link to see mockup UI User (pemilih)](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/tree/main/Mockup%20UI%20%26%20Design%20Interaction%20Control/UI%20User)
+
+## User Acceptance Conference & Feedback
+
+### Admin
+* [link to see](https://youtu.be/8JgNMYCSJ68)
+
+### User
+* [link to see](https://youtu.be/xV-8Dnp7yII)
+
+## Final Report
+
+* [link to Final Project Report](https://github.com/kiyahza27/E-Voting-KPU-Ilkom-UNJ-Final-Project-IMK-/blob/main/Final%20Project%20Report/Laporan%20Akhir%20IMK%20E-Voting%20KPU%20Ilkom.pdf)
+
+## Deployment Site
+
+* Website dapat dilihat di: http://www.kpu-ilkom.ga/login
+
+* Akun admin: username: admin1; password: 1
+
+* Akun user: username: tes; password: 7910
